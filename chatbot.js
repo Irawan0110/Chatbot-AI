@@ -14,7 +14,7 @@ function pesan() {
   document.getElementById("pesan").value = "";
 }
 function geminiChatAi(prompt) {
-  const apiKey = "AIzaSyA2fZ0fP-tztjm5QS9FmniqHI3vn6NpELg";
+  const apiKey = "Api-Key-Anda";
   return fetch(
     `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`,
     {
